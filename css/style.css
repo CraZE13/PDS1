@@ -8,7 +8,7 @@
 }
 
 html {
-  font-size: 62.5%;
+  font-size: 62.5% !important;
   scroll-behavior: smooth;
 }
 
@@ -224,6 +224,7 @@ body {
   font-size: 7rem;
   color: #00315c;
   margin-bottom: 5rem;
+  font-weight: 700;
   text-transform: capitalize;
   line-height: 8rem;
   letter-spacing: 2.5px;
@@ -510,6 +511,7 @@ body {
 
 .about__heading {
   margin-top: 3rem;
+  font-weight: 700;
   font-size: 6.5rem;
   color: #EDEBEB;
 }
@@ -565,8 +567,8 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin: 1.2rem 0;
-  padding: 1.5rem;
+  margin: 1.2rem 0 0;
+  padding: 1.3rem;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   margin-top: -3rem;
@@ -582,7 +584,7 @@ body {
 }
 
 .data__img {
-  height: 20rem;
+  height: 13rem;
 }
 
 @media only screen and (max-width: 56.25em) {
@@ -973,7 +975,7 @@ body {
 }
 
 .verticals__heading--main {
-  width: 95%;
+  width: 80%;
   padding: .8rem 0;
   text-align: center;
   margin: auto;
@@ -995,27 +997,39 @@ body {
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
-  width: 95%;
+  width: 80%;
   margin: auto;
   padding: 2rem 10rem;
   background-color: rgba(0, 49, 92, 0.08);
 }
 
 @media only screen and (max-width: 37.5em) {
+  .verticals__heading--main{
+    width: 95%;
+  }
   .verticals__div {
     padding: 2rem 7.5rem;
+    width: 95%;
   }
 }
 
 @media only screen and (max-width: 31.25em) {
+  .verticals__heading--main{
+    width: 95%;
+  }
   .verticals__div {
     padding: 2rem 5rem;
+    width: 95%;
   }
 }
 
 @media only screen and (max-width: 25em) {
+  .verticals__heading--main{
+    width: 95%;
+  }
   .verticals__div {
     padding: 2rem 1.5rem;
+    width: 95%;
   }
 }
 
@@ -1238,6 +1252,9 @@ body {
   .mission__para {
     font-size: 1.6rem;
   }
+  .partners_div{
+    width: 80% !important;
+  }
 }
 
 .products__link {
@@ -1263,17 +1280,26 @@ body {
   .products__div {
     padding: 6.5rem;
   }
+  .partners_div{
+    width: 80% !important;
+  }
 }
 
 @media only screen and (max-width: 62.5em) {
   .products__div {
     padding: 5rem;
   }
+  .partners_div{
+    width: 80% !important;
+  }
 }
 
 @media only screen and (max-width: 56.25em) {
   .products__div {
     padding: 4rem;
+  }
+  .partners_div{
+    width: 80% !important;
   }
 }
 
@@ -1284,17 +1310,26 @@ body {
         -ms-flex-direction: column;
             flex-direction: column;
   }
+  .partners_div{
+    width: 80% !important;
+  }
 }
 
 @media only screen and (max-width: 37.5em) {
   .products__div {
     padding: 2.5rem;
   }
+  .partners_div{
+    width: 80% !important;
+  }
 }
 
 @media only screen and (max-width: 25em) {
   .products__div {
     padding: .5rem;
+  }
+  .partners_div{
+    width: 80% !important;
   }
 }
 
@@ -1509,6 +1544,7 @@ body {
   text-align: center;
 }
 
+
 @media only screen and (max-width: 37.5em) {
   .services {
     padding: 3.5rem 5rem;
@@ -1528,21 +1564,32 @@ body {
 }
 
 .services__heading {
-  margin-top: 3rem;
   font-size: 6.5rem;
+  color: #EDEBEB;
+}
+
+.fullMilitary{
+  font-weight: lighter;
+  font-size: 4rem;
   color: #EDEBEB;
 }
 
 @media only screen and (max-width: 37.5em) {
   .services__heading {
-    margin-top: 2rem;
+    margin-top: 0rem;
     font-size: 6rem;
+  }
+  .fullMilitary{
+    font-size: 3.5rem;
   }
 }
 
 @media only screen and (max-width: 25em) {
   .services__heading {
     font-size: 5rem;
+  }
+  .fullMilitary{
+    font-size: 3rem;
   }
 }
 
